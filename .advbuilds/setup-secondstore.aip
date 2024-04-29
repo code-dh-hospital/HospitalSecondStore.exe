@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="21.3" version="21.3" Modules="simple" RootPath="." Language="en" Id="{5F5599CD-A103-4DD8-9D95-FE5C6755814F}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;FixupComponent;MsiXDiffComponent;MsixManifestEditorComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="ongtrieuhau861@gmail.com" ValueLocId="*"/>
+    <ROW Property="ARPCONTACT" Value="ongtrieuhau861@gmail.com"/>
+    <ROW Property="ARPHELPLINK" Value="https://github.com/dh-hos"/>
+    <ROW Property="ARPHELPTELEPHONE" Value="0988.255.863"/>
+    <ROW Property="ARPPRODUCTICON" Value="HospitalSecondStore.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="https://dh-his.com"/>
+    <ROW Property="ARPURLUPDATEINFO" Value="https://github.com/dh-hos"/>
+    <ROW Property="ExecuteVersion" Value="3.24.0429.3"/>
+    <ROW Property="Manufacturer" Value="DHG Pharma"/>
+    <ROW Property="ProductCode" Value="1033:{EEB3B0BD-CA76-4D86-AF3D-6D216DCE8958} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="DHG.Hospital SecondStore"/>
+    <ROW Property="ProductVersion" Value="3.24.0429.5" Options="4"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{D83BAA61-E865-4CF7-AA67-B0DBFE55AA41}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60Display" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DHGPharma_Dir" Directory_Parent="StartMenuFolder" DefaultDir="DHGPHA~1|DHG Pharma"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="StartMenuFolder" Directory_Parent="TARGETDIR" DefaultDir="STARTM~1|StartMenuFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="API3.SDK.dll" ComponentId="{D5D8BD86-52C3-4102-8E7B-54B6A19E5D7D}" Directory_="APPDIR" Attributes="0" KeyPath="API3.SDK.dll"/>
+    <ROW Component="APPDIR" ComponentId="{9E251F10-1F45-4A7B-9523-8787B729D366}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="Admin.DataAccess.dll" ComponentId="{37A2E4A2-A8F5-46A0-AAA6-A6B2E9495471}" Directory_="APPDIR" Attributes="0" KeyPath="Admin.DataAccess.dll"/>
+    <ROW Component="BouncyCastle.Crypto.dll" ComponentId="{3EDBED90-084F-4539-8AD5-21DDA4E986B0}" Directory_="APPDIR" Attributes="0" KeyPath="BouncyCastle.Crypto.dll"/>
+    <ROW Component="Bunifu.Core.dll" ComponentId="{11A66237-2E14-4E2B-A6AC-C06BFC14E8AE}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.Core.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuButton.dll" ComponentId="{8A9699C6-57AB-4441-81FB-44F7DF35AEF3}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuButton.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuCheckBox.dll" ComponentId="{7211CB36-9618-4E9F-B311-EDFDCA4F32AA}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuCheckBox.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuRadioButton.dll" ComponentId="{A96A4981-D11C-4A27-9B58-0725A8503F78}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuRadioButton.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuTextbox.dll" ComponentId="{EAF03038-E785-429A-8A59-375C8B237D70}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuTextbox.dll"/>
+    <ROW Component="ChilkatDotNet4.dll" ComponentId="{A18474E3-7364-42D5-87A2-BC3F98845333}" Directory_="APPDIR" Attributes="256" KeyPath="ChilkatDotNet4.dll"/>
+    <ROW Component="Chuoi.dll" ComponentId="{246010D4-16D0-4385-94FC-6E00C64892A3}" Directory_="APPDIR" Attributes="0" KeyPath="Chuoi.dll"/>
+    <ROW Component="ControlButton.dll" ComponentId="{300217B9-9F4F-4D81-BA37-1D47090C9729}" Directory_="APPDIR" Attributes="0" KeyPath="ControlButton.dll"/>
+    <ROW Component="ControlButtonDev.dll" ComponentId="{BA873EA1-9D34-4DE7-BB16-95FF17F4B4BC}" Directory_="APPDIR" Attributes="0" KeyPath="ControlButtonDev.dll"/>
+    <ROW Component="CrystalDecisions.CrystalReports.Engine.dll" ComponentId="{EF8061FB-AE20-40FF-A615-0C1706BCF2A0}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.CrystalReports.Engine.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.ClientDoc.dll" ComponentId="{D78D82C0-3328-48A1-BBA7-7942CD988E32}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.ClientDoc.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.Com_1_monObjectModel.dll" ComponentId="{EC5972ED-5B34-4ACC-9C47-18C180F51735}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.CommonObjectModel.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.CommLayer.dll" ComponentId="{1C8ABEAA-EFCA-4B44-B4F0-14B12A951558}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.CommLayer.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.CommonControls.dll" ComponentId="{B1488588-05F6-4A60-B069-9496F4B0AA0F}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.CommonControls.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.Controllers.dll" ComponentId="{A429CC5D-6430-46F2-8A41-9D04F3C364BF}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.Controllers.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.CubeDefModel.dll" ComponentId="{1BC977BF-03FB-4772-BE2E-C025461AC0E8}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.CubeDefModel.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.DataDefModel.dll" ComponentId="{CF0A59CA-1FC2-4241-8EFA-CA636DBEC1D4}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.DataDefModel.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.DataSetConversion.dll" ComponentId="{64FA4710-8083-4991-9E95-1FA08E87FA5C}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.DataSetConversion.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.ObjectFactory.dll" ComponentId="{BDE22BF5-816B-4CB1-BCF4-AC7477985F1A}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.ObjectFactory.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.Prompting.dll" ComponentId="{2357FB9B-3335-4A64-8511-C0608CC687BE}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.Prompting.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.ReportDefModel.dll" ComponentId="{CA2C1C86-4717-49E5-84DD-80E4D14FC456}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.ReportDefModel.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.XmlSerialize.dll" ComponentId="{4DCAB64F-9E19-4016-9338-D7C1738D0840}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.XmlSerialize.dll"/>
+    <ROW Component="CrystalDecisions.ReportSource.dll" ComponentId="{DB7A8E8C-1204-4385-BD30-00B8879DA0F2}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportSource.dll"/>
+    <ROW Component="CrystalDecisions.Shared.dll" ComponentId="{4E9C4B48-A344-45D5-878C-206C21A5FD19}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.Shared.dll"/>
+    <ROW Component="CrystalDecisions.Windows.Forms.dll" ComponentId="{37DB0736-4016-4765-84E2-57E16CA22D15}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.Windows.Forms.dll"/>
+    <ROW Component="Ctrl.dll" ComponentId="{B8A751F3-5B37-4345-946E-B5EA4DBEA814}" Directory_="APPDIR" Attributes="0" KeyPath="Ctrl.dll"/>
+    <ROW Component="DH.XtraRPT.dll" ComponentId="{7EE08F46-9EB9-4916-B343-BB633DF7AAA9}" Directory_="APPDIR" Attributes="0" KeyPath="DH.XtraRPT.dll"/>
+    <ROW Component="DHGPharma" ComponentId="{7CAEC11F-EBEE-4B0F-8969-EFE35E308531}" Directory_="DHGPharma_Dir" Attributes="0"/>
+    <ROW Component="DanhMuc.dll" ComponentId="{A0B3FD47-5ACF-4A1B-B608-91207F73780E}" Directory_="APPDIR" Attributes="0" KeyPath="DanhMuc.dll"/>
+    <ROW Component="DanhMucB.dll" ComponentId="{26B3BC7C-FCBE-4261-810F-C979563469AA}" Directory_="APPDIR" Attributes="0" KeyPath="DanhMucB.dll"/>
+    <ROW Component="DataTransferLib.dll" ComponentId="{F284F171-7B40-464F-99D1-D9FD6E61FB9B}" Directory_="APPDIR" Attributes="0" KeyPath="DataTransferLib.dll"/>
+    <ROW Component="DevExpress.Map.v17.1.Core.dll" ComponentId="{6471033D-FBE6-4370-A425-5976A4037C9E}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Map.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.Patch.Common.dll" ComponentId="{DB62A926-8C32-4B51-B864-8B54A37101F7}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Patch.Common.dll"/>
+    <ROW Component="DevExpress.Snap.v17.1.Extensions.dll" ComponentId="{A0BAB50E-CC67-49EC-9090-A05121C7DF86}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Snap.v17.1.Extensions.dll"/>
+    <ROW Component="DevExpress.Snap.v17.1.dll" ComponentId="{3E2B7133-5442-4242-B92F-225E647AA709}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Snap.v17.1.dll"/>
+    <ROW Component="DevExpress.TreeMap.v17.1.Core.dll" ComponentId="{5FE8F756-B78E-4A47-9426-C0D0579E7C97}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.TreeMap.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.Web.ASPxThemes.v17.1.dll" ComponentId="{1EA36545-B03B-4C49-A9E2-D18C3E144341}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Web.ASPxThemes.v17.1.dll"/>
+    <ROW Component="DevExpress.Web.Resources.v17.1.dll" ComponentId="{980F9DFE-492E-4B42-BC0B-1AB655E7FFA5}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Web.Resources.v17.1.dll"/>
+    <ROW Component="DevExpress.Web.v17.1.dll" ComponentId="{919A4EC6-797F-42DF-9B01-870DFBAED178}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Web.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraCharts.v17.1.UI.dll" ComponentId="{6BDE6AD7-4C82-4EC5-84CD-9EAF37D264DB}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraCharts.v17.1.UI.dll"/>
+    <ROW Component="DevExpress.XtraReports.v17.1.Web.dll" ComponentId="{D4F35B56-8EA0-4E4E-A7A7-7FF6510BC552}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraReports.v17.1.Web.dll"/>
+    <ROW Component="DevExpress.XtraRichEdit.v17.1.Extensions.dll" ComponentId="{F91F8C43-BABD-45DE-89F3-E84A247FBFA4}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraRichEdit.v17.1.Extensions.dll"/>
+    <ROW Component="DevExpress.XtraTreeMap.v17.1.dll" ComponentId="{541BEDC9-5870-470C-A4EC-35AF4817E512}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraTreeMap.v17.1.dll"/>
+    <ROW Component="EPPlus.dll" ComponentId="{29DCA880-9B9E-4270-A463-4E4B976C554F}" Directory_="APPDIR" Attributes="0" KeyPath="EPPlus.dll"/>
+    <ROW Component="EntityFramework.dll" ComponentId="{A557898F-5159-48B1-B686-76989F0A2429}" Directory_="APPDIR" Attributes="0" KeyPath="EntityFramework.dll"/>
+    <ROW Component="EnvDTE.dll" ComponentId="{25803332-EEC9-4B93-8641-C0B521897A98}" Directory_="APPDIR" Attributes="0" KeyPath="EnvDTE.dll"/>
+    <ROW Component="EnvDTE80.dll" ComponentId="{B40D8FCC-39B9-4EBB-9436-EC1367790A6B}" Directory_="APPDIR" Attributes="0" KeyPath="EnvDTE80.dll"/>
+    <ROW Component="Excel.dll" ComponentId="{31E4A54B-2414-4815-B9BD-29538F244D60}" Directory_="APPDIR" Attributes="0" KeyPath="Excel.dll"/>
+    <ROW Component="FlashControlV71.dll" ComponentId="{3C952731-BC39-4FB0-A0B9-7F8FF0BC678E}" Directory_="APPDIR" Attributes="0" KeyPath="FlashControlV71.dll"/>
+    <ROW Component="Google.Apis.Auth.dll" ComponentId="{E017854E-9A1E-41F1-98B3-1BADFADE713E}" Directory_="APPDIR" Attributes="0" KeyPath="Google.Apis.Auth.dll"/>
+    <ROW Component="Google.Apis.Core.dll" ComponentId="{4975C868-C70E-4991-8424-A3A89D3687AA}" Directory_="APPDIR" Attributes="0" KeyPath="Google.Apis.Core.dll"/>
+    <ROW Component="Google.Apis.Drive.v3.dll" ComponentId="{CD7428EF-86E8-42CD-B69E-EAF3291A1E68}" Directory_="APPDIR" Attributes="0" KeyPath="Google.Apis.Drive.v3.dll"/>
+    <ROW Component="Google.Apis.dll" ComponentId="{E67CA736-8E44-4746-960C-6C29D3192BE7}" Directory_="APPDIR" Attributes="0" KeyPath="Google.Apis.dll"/>
+    <ROW Component="HosMed.BCDuoc.dll" ComponentId="{EFCF1A40-A25C-4BDE-8F3A-10AE116A2925}" Directory_="APPDIR" Attributes="0" KeyPath="HosMed.BCDuoc.dll"/>
+    <ROW Component="HosMed.BangKe.dll" ComponentId="{13C1B84C-FE90-45B7-937D-10322AB04DAB}" Directory_="APPDIR" Attributes="0" KeyPath="HosMed.BangKe.dll"/>
+    <ROW Component="HosMed.Core.dll" ComponentId="{899E9FC3-53F5-4E2F-A8FA-A7E4E86074CB}" Directory_="APPDIR" Attributes="0" KeyPath="HosMed.Core.dll"/>
+    <ROW Component="HospitalSecondStore.exe" ComponentId="{3D967B6A-B0C5-4FD9-84A7-DC0FCDD03B84}" Directory_="APPDIR" Attributes="0" KeyPath="HospitalSecondStore.exe"/>
+    <ROW Component="HospitalSecondStore.exe.config" ComponentId="{AA05FEA2-C0FA-4173-AD08-F4359DBB8439}" Directory_="APPDIR" Attributes="0" KeyPath="HospitalSecondStore.exe.config" Type="0"/>
+    <ROW Component="ICSharpCode.SharpZipLib.dll" ComponentId="{279B6310-7F0F-4371-875E-2E0698CFB689}" Directory_="APPDIR" Attributes="0" KeyPath="ICSharpCode.SharpZipLib.dll"/>
+    <ROW Component="Janus.Data.v3.dll" ComponentId="{67C44050-30F8-46ED-95C8-CBAF3A37E200}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Data.v3.dll"/>
+    <ROW Component="Janus.Windows.ButtonBar.v3.dll" ComponentId="{05409FE8-A1FA-4C38-B85B-8442FD809675}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.ButtonBar.v3.dll"/>
+    <ROW Component="Janus.Windows.CalendarCombo.v3.dll" ComponentId="{B7039E4C-83AE-4957-85DF-3FB7A341A9EC}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.CalendarCombo.v3.dll"/>
+    <ROW Component="Janus.Windows.Common.v3.dll" ComponentId="{31122BB9-74F4-42B1-8E76-31550BC3BEBB}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.Common.v3.dll"/>
+    <ROW Component="Janus.Windows.ExplorerBar.v3.dll" ComponentId="{6B3337F2-CBBD-4772-8A66-71B4487AC111}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.ExplorerBar.v3.dll"/>
+    <ROW Component="Janus.Windows.FilterEditor.v3.dll" ComponentId="{2BD1643A-3D0A-4765-A445-8B08358D1EE6}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.FilterEditor.v3.dll"/>
+    <ROW Component="Janus.Windows.GridEX.v3.dll" ComponentId="{6823C5B3-0DA8-4516-98D2-A2DCAFC0C43E}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.GridEX.v3.dll"/>
+    <ROW Component="Janus.Windows.Ribbon.v3.dll" ComponentId="{69EAD846-78B5-4193-9DF5-EED0B0DE8EBB}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.Ribbon.v3.dll"/>
+    <ROW Component="Janus.Windows.Schedule.v3.dll" ComponentId="{8D9CE405-1D55-4AC7-B976-AF976CAFB000}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.Schedule.v3.dll"/>
+    <ROW Component="Janus.Windows.TimeLine.v3.dll" ComponentId="{13D78068-9BA2-49AF-A89C-E178E685AF70}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.TimeLine.v3.dll"/>
+    <ROW Component="Janus.Windows.UI.v3.dll" ComponentId="{9BF1B13C-EAC3-4D75-8C40-9D4003BEA9DC}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.UI.v3.dll"/>
+    <ROW Component="LibraryApp.dll" ComponentId="{99FD723D-180C-4A99-80E8-A4AEE1F505D3}" Directory_="APPDIR" Attributes="0" KeyPath="LibraryApp.dll"/>
+    <ROW Component="License.dll" ComponentId="{2D061005-D894-4D41-AB74-256885F7DBE1}" Directory_="APPDIR" Attributes="0" KeyPath="License.dll"/>
+    <ROW Component="MessageBoxAdv.dll" ComponentId="{10517096-CF2F-47C4-858D-6045A36DB114}" Directory_="APPDIR" Attributes="0" KeyPath="MessageBoxAdv.dll"/>
+    <ROW Component="Microsoft.CSharp.dll" ComponentId="{0949F642-54FF-4784-8138-FA39DC8E9630}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.CSharp.dll"/>
+    <ROW Component="Mono.Security.dll" ComponentId="{555B766F-E700-478B-A768-1E7DBA8AEBFF}" Directory_="APPDIR" Attributes="0" KeyPath="Mono.Security.dll"/>
+    <ROW Component="Newtonsoft.Json.dll" ComponentId="{8352044F-F50D-457B-AC05-46554D965FFD}" Directory_="APPDIR" Attributes="0" KeyPath="Newtonsoft.Json.dll"/>
+    <ROW Component="Npgsql.EntityFramework.dll" ComponentId="{65AB7FA5-B87D-480B-B06E-96B7CD11019A}" Directory_="APPDIR" Attributes="0" KeyPath="Npgsql.EntityFramework.dll"/>
+    <ROW Component="Npgsql.EntityFrameworkLegacy.dll" ComponentId="{39C0FFB9-0D6A-4425-957F-05C22FF7DC6B}" Directory_="APPDIR" Attributes="0" KeyPath="Npgsql.EntityFrameworkLegacy.dll"/>
+    <ROW Component="Npgsql.dll" ComponentId="{5792A696-DFB9-4518-BE92-F7452CC69BD2}" Directory_="APPDIR" Attributes="0" KeyPath="Npgsql.dll"/>
+    <ROW Component="Number2String.dll" ComponentId="{AE67B096-6818-4163-8288-FD3A23016286}" Directory_="APPDIR" Attributes="0" KeyPath="Number2String.dll"/>
+    <ROW Component="OTH.Adapter.dll" ComponentId="{947827B0-81A4-4152-9329-16D1A3BDA50F}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.Adapter.dll"/>
+    <ROW Component="OTH.AppStore.Client.exe" ComponentId="{A64AE561-D692-4E32-9F87-E831C499B792}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.AppStore.Client.exe"/>
+    <ROW Component="OTH.AppStore.Core.dll" ComponentId="{43A512B6-B37A-47D0-AAD2-8CA598FA9117}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.AppStore.Core.dll"/>
+    <ROW Component="OTH.ChilkatRR.dll" ComponentId="{57C56714-4451-40C1-9E8B-93BEB874C0FD}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.ChilkatRR.dll"/>
+    <ROW Component="OTH.Common.dll" ComponentId="{F027F909-9A45-46F8-BD27-554B47C3DCAA}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.Common.dll"/>
+    <ROW Component="OTH.Entity.dll" ComponentId="{9961E8CB-90E1-4B29-B70F-3894877E113C}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.Entity.dll"/>
+    <ROW Component="OTH.Entity.v.1.0.dll" ComponentId="{609EFDDC-15F6-4ED3-A58B-BBE5AEFA89A4}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.Entity.v.1.0.dll"/>
+    <ROW Component="OTH.GLib.dll" ComponentId="{3CE096AB-6401-49D4-BD14-6DB05AF458FB}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.GLib.dll"/>
+    <ROW Component="OTH.Gassync.dll" ComponentId="{528FBFA8-D160-4353-9069-E250ECD5F9EC}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.Gassync.dll"/>
+    <ROW Component="OTH.GoogleDrive.dll" ComponentId="{2D298B1C-BF69-4F59-8CF7-2E0D2C4A2A4E}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.GoogleDrive.dll"/>
+    <ROW Component="OTH.Model.FHI.dll" ComponentId="{278CAAA9-B077-4FE6-91BE-E1F5A38B6810}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.Model.FHI.dll"/>
+    <ROW Component="OTH.PAY.SHB.Apis.dll" ComponentId="{455C66DE-F25B-489F-A32A-16860A5363E8}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.PAY.SHB.Apis.dll"/>
+    <ROW Component="OTH.PAY.ViettinBank.Apis.Leasedline.dll" ComponentId="{86B1953C-8924-4F87-A506-44BEB8E55401}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.PAY.ViettinBank.Apis.Leasedline.dll"/>
+    <ROW Component="OTH.PAY.ViettinBank.Apis.Net.dll" ComponentId="{14631DA4-390C-4326-B703-32BB086A9E12}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.PAY.ViettinBank.Apis.Net.dll"/>
+    <ROW Component="OTH.PAY.ViettinBank.Crypto.dll" ComponentId="{B86025D0-BF0C-45DD-8E5F-843BAD5FF9B7}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.PAY.ViettinBank.Crypto.dll"/>
+    <ROW Component="OTH.PAY.ViettinBank.Hos.dll" ComponentId="{416496F9-B2EE-42E8-A807-44BD6D3949EA}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.PAY.ViettinBank.Hos.dll"/>
+    <ROW Component="OTH.PgBackup.dll" ComponentId="{85C449F2-78F4-41B8-A5C5-4FB096DB4F5D}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.PgBackup.dll"/>
+    <ROW Component="OTH.PgSQL.dll" ComponentId="{705EBFBD-94F4-4D8B-ACBF-F60173980AE7}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.PgSQL.dll"/>
+    <ROW Component="OTH.Resources.dll" ComponentId="{E41E3DEB-FE74-434F-A63B-6AA3BA445CA9}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.Resources.dll"/>
+    <ROW Component="OTH.SQL.dll" ComponentId="{59C1C9C5-7484-458F-B238-04153561561C}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.SQL.dll"/>
+    <ROW Component="OTH.Selenium.dll" ComponentId="{44396B95-C816-476E-99C9-B815D8B49851}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.Selenium.dll"/>
+    <ROW Component="OTH.TXReports.dll" ComponentId="{1CD79C4D-01B5-46A9-A068-BA8D76A16319}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.TXReports.dll"/>
+    <ROW Component="OTH.TXTextControlWordsRibbon.dll" ComponentId="{5AFAFCAD-0B3F-4E6E-9F26-8FA313523388}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.TXTextControlWordsRibbon.dll"/>
+    <ROW Component="OTH.UpdaterNet.dll" ComponentId="{3DB89A09-4D6A-42AF-8823-F05CC4F08352}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.UpdaterNet.dll"/>
+    <ROW Component="OTH.WebServices.dll" ComponentId="{BA824614-AD32-472C-B7C7-8B8289B9CAD3}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.WebServices.dll"/>
+    <ROW Component="OTH.XControl.dll" ComponentId="{10A8099C-65AE-47F4-B7B7-D7AA67F9987A}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.XControl.dll"/>
+    <ROW Component="OTH.XForms.dll" ComponentId="{E57F8217-6816-4127-A248-EE133A116DF2}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.XForms.dll"/>
+    <ROW Component="OTH.XForms.v.1.0.dll" ComponentId="{EBF681D3-AE56-403F-8D21-58B521C50D46}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.XForms.v.1.0.dll"/>
+    <ROW Component="OTH.XForms.v.1.1.dll" ComponentId="{75C401FB-97F7-4CE8-A22B-036D5F394E28}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.XForms.v.1.1.dll"/>
+    <ROW Component="OTH.XReports.dll" ComponentId="{8D5A89FF-525B-429C-859C-242F4C4D0DF1}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.XReports.dll"/>
+    <ROW Component="OTH.dll" ComponentId="{8319E977-169D-4B59-A8D1-B5908B069B3F}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.dll"/>
+    <ROW Component="PairTextBox.dll" ComponentId="{B66E7DF0-215E-410C-9D90-494351A353D3}" Directory_="APPDIR" Attributes="0" KeyPath="PairTextBox.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{8653933C-2118-4084-9770-705AAC0B6104}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="QRCoder.dll" ComponentId="{A5DFD895-D4B4-45FA-B32B-357EB9D400A7}" Directory_="APPDIR" Attributes="0" KeyPath="QRCoder.dll"/>
+    <ROW Component="ReportViewer.dll" ComponentId="{3D9C6597-EC8F-406A-9E66-C0795C44E21A}" Directory_="APPDIR" Attributes="0" KeyPath="ReportViewer.dll"/>
+    <ROW Component="RestSharp.dll" ComponentId="{C92C9590-FE8E-42CA-AE26-E8BB01D4D0E4}" Directory_="APPDIR" Attributes="0" KeyPath="RestSharp.dll"/>
+    <ROW Component="Role.dll" ComponentId="{22B80831-111F-4E6A-A6F5-A4B45F97A09B}" Directory_="APPDIR" Attributes="0" KeyPath="Role.dll"/>
+    <ROW Component="Roo.Exe.dll" ComponentId="{509813EF-600B-43D8-A6D3-65F724087008}" Directory_="APPDIR" Attributes="0" KeyPath="Roo.Exe.dll"/>
+    <ROW Component="SetupPrintDlg.dll" ComponentId="{BC3B48B2-E93A-4BF2-A895-4FFE4E4BFE0C}" Directory_="APPDIR" Attributes="0" KeyPath="SetupPrintDlg.dll"/>
+    <ROW Component="ShockwaveFlashObjects.dll" ComponentId="{AF85C8E7-CE77-4C51-A8B1-1C32D6F141AF}" Directory_="APPDIR" Attributes="0" KeyPath="ShockwaveFlashObjects.dll"/>
+    <ROW Component="Status.dll" ComponentId="{95F7C875-5AE6-4CA2-8BC4-4BE0E61FF80A}" Directory_="APPDIR" Attributes="0" KeyPath="Status.dll"/>
+    <ROW Component="TXDocumentServer.Windows.Forms.dll" ComponentId="{A880C096-5E14-458E-ABC0-E83BC87CD61D}" Directory_="APPDIR" Attributes="0" KeyPath="TXDocumentServer.Windows.Forms.dll"/>
+    <ROW Component="TXDocumentServer.dll" ComponentId="{3CAD9A71-7127-448F-BFDF-5CDBBB7A7C9F}" Directory_="APPDIR" Attributes="0" KeyPath="TXDocumentServer.dll"/>
+    <ROW Component="TXDrawing.Windows.Forms.dll" ComponentId="{01413BCC-8D5F-46B8-88B3-14184B9E7F11}" Directory_="APPDIR" Attributes="0" KeyPath="TXDrawing.Windows.Forms.dll"/>
+    <ROW Component="TXDrawing.dll" ComponentId="{CC1F5D99-F97F-44E4-ACE8-3E5D2A79E6B0}" Directory_="APPDIR" Attributes="0" KeyPath="TXDrawing.dll"/>
+    <ROW Component="TXTextControl.Server.dll" ComponentId="{0DD3C595-F3CD-42B4-ADB5-AEB599D1F4C7}" Directory_="APPDIR" Attributes="0" KeyPath="TXTextControl.Server.dll"/>
+    <ROW Component="TXTextControl.Windows.Forms.dll" ComponentId="{6B8AA439-6D50-4B85-AD65-E1F875DF8967}" Directory_="APPDIR" Attributes="0" KeyPath="TXTextControl.Windows.Forms.dll"/>
+    <ROW Component="TXTextControl.dll" ComponentId="{656C98ED-9F73-460F-8E9A-B4D53E5DA23F}" Directory_="APPDIR" Attributes="0" KeyPath="TXTextControl.dll"/>
+    <ROW Component="WebDriver.Support.dll" ComponentId="{9228A8FB-F807-4E30-9854-9B49E66CD975}" Directory_="APPDIR" Attributes="0" KeyPath="WebDriver.Support.dll"/>
+    <ROW Component="WebDriver.dll" ComponentId="{1F6D8222-5D77-48C5-B50E-F89607C74D56}" Directory_="APPDIR" Attributes="0" KeyPath="WebDriver.dll"/>
+    <ROW Component="XtraRPT.dll" ComponentId="{9DD4E010-2FA6-4A36-87F7-928DC55D42EA}" Directory_="APPDIR" Attributes="0" KeyPath="XtraRPT.dll"/>
+    <ROW Component="fhi360.hiv.DataTransfer.Intefaces.dll" ComponentId="{2819F399-B872-4A42-A1BE-47E928BF3542}" Directory_="APPDIR" Attributes="0" KeyPath="fhi360.hiv.DataTransfer.Intefaces.dll"/>
+    <ROW Component="log4net.dll" ComponentId="{F9B7123E-14D7-4F1F-8F67-866C32270B18}" Directory_="APPDIR" Attributes="0" KeyPath="log4net.dll"/>
+    <ROW Component="stdole.dll" ComponentId="{F7169B91-3626-4336-906A-6346A79DE613}" Directory_="APPDIR" Attributes="0" KeyPath="stdole.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Admin.DataAccess.dll" Component_="Admin.DataAccess.dll" FileName="ADMIND~1.DLL|Admin.DataAccess.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Admin.DataAccess.dll" SelfReg="false"/>
+    <ROW File="API3.SDK.dll" Component_="API3.SDK.dll" FileName="API3SD~1.DLL|API3.SDK.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\API3.SDK.dll" SelfReg="false"/>
+    <ROW File="BouncyCastle.Crypto.dll" Component_="BouncyCastle.Crypto.dll" FileName="BOUNCY~1.DLL|BouncyCastle.Crypto.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\BouncyCastle.Crypto.dll" SelfReg="false"/>
+    <ROW File="Bunifu.Core.dll" Component_="Bunifu.Core.dll" FileName="BUNIFU~1.DLL|Bunifu.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Bunifu.Core.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuButton.dll" Component_="Bunifu.UI.WinForms.BunifuButton.dll" FileName="BUNIFU~2.DLL|Bunifu.UI.WinForms.BunifuButton.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Bunifu.UI.WinForms.BunifuButton.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuCheckBox.dll" Component_="Bunifu.UI.WinForms.BunifuCheckBox.dll" FileName="BUNIFU~3.DLL|Bunifu.UI.WinForms.BunifuCheckBox.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Bunifu.UI.WinForms.BunifuCheckBox.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuRadioButton.dll" Component_="Bunifu.UI.WinForms.BunifuRadioButton.dll" FileName="BUNIFU~4.DLL|Bunifu.UI.WinForms.BunifuRadioButton.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Bunifu.UI.WinForms.BunifuRadioButton.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuTextbox.dll" Component_="Bunifu.UI.WinForms.BunifuTextbox.dll" FileName="BUNIFU~5.DLL|Bunifu.UI.WinForms.BunifuTextbox.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Bunifu.UI.WinForms.BunifuTextbox.dll" SelfReg="false"/>
+    <ROW File="ChilkatDotNet4.dll" Component_="ChilkatDotNet4.dll" FileName="CHILKA~1.DLL|ChilkatDotNet4.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\ChilkatDotNet4.dll" SelfReg="false"/>
+    <ROW File="Chuoi.dll" Component_="Chuoi.dll" FileName="Chuoi.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Chuoi.dll" SelfReg="false"/>
+    <ROW File="ControlButton.dll" Component_="ControlButton.dll" FileName="CONTRO~1.DLL|ControlButton.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\ControlButton.dll" SelfReg="false"/>
+    <ROW File="ControlButtonDev.dll" Component_="ControlButtonDev.dll" FileName="CONTRO~2.DLL|ControlButtonDev.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\ControlButtonDev.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.CrystalReports.Engine.dll" Component_="CrystalDecisions.CrystalReports.Engine.dll" FileName="CRYSTA~1.DLL|CrystalDecisions.CrystalReports.Engine.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.CrystalReports.Engine.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.ClientDoc.dll" Component_="CrystalDecisions.ReportAppServer.ClientDoc.dll" FileName="CRYSTA~2.DLL|CrystalDecisions.ReportAppServer.ClientDoc.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.ReportAppServer.ClientDoc.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CommLayer.dll" Component_="CrystalDecisions.ReportAppServer.CommLayer.dll" FileName="CRYSTA~3.DLL|CrystalDecisions.ReportAppServer.CommLayer.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.ReportAppServer.CommLayer.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CommonControls.dll" Component_="CrystalDecisions.ReportAppServer.CommonControls.dll" FileName="CRYSTA~4.DLL|CrystalDecisions.ReportAppServer.CommonControls.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.ReportAppServer.CommonControls.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CommonObjectModel.dll" Component_="CrystalDecisions.ReportAppServer.Com_1_monObjectModel.dll" FileName="CRYSTA~5.DLL|CrystalDecisions.ReportAppServer.CommonObjectModel.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.ReportAppServer.CommonObjectModel.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.Controllers.dll" Component_="CrystalDecisions.ReportAppServer.Controllers.dll" FileName="CRYSTA~6.DLL|CrystalDecisions.ReportAppServer.Controllers.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.ReportAppServer.Controllers.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CubeDefModel.dll" Component_="CrystalDecisions.ReportAppServer.CubeDefModel.dll" FileName="CRYSTA~7.DLL|CrystalDecisions.ReportAppServer.CubeDefModel.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.ReportAppServer.CubeDefModel.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.DataDefModel.dll" Component_="CrystalDecisions.ReportAppServer.DataDefModel.dll" FileName="CRYSTA~8.DLL|CrystalDecisions.ReportAppServer.DataDefModel.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.ReportAppServer.DataDefModel.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.DataSetConversion.dll" Component_="CrystalDecisions.ReportAppServer.DataSetConversion.dll" FileName="CRYSTA~9.DLL|CrystalDecisions.ReportAppServer.DataSetConversion.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.ReportAppServer.DataSetConversion.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.ObjectFactory.dll" Component_="CrystalDecisions.ReportAppServer.ObjectFactory.dll" FileName="CRYST~10.DLL|CrystalDecisions.ReportAppServer.ObjectFactory.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.ReportAppServer.ObjectFactory.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.Prompting.dll" Component_="CrystalDecisions.ReportAppServer.Prompting.dll" FileName="CRYST~11.DLL|CrystalDecisions.ReportAppServer.Prompting.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.ReportAppServer.Prompting.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.ReportDefModel.dll" Component_="CrystalDecisions.ReportAppServer.ReportDefModel.dll" FileName="CRYST~12.DLL|CrystalDecisions.ReportAppServer.ReportDefModel.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.ReportAppServer.ReportDefModel.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.XmlSerialize.dll" Component_="CrystalDecisions.ReportAppServer.XmlSerialize.dll" FileName="CRYST~13.DLL|CrystalDecisions.ReportAppServer.XmlSerialize.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.ReportAppServer.XmlSerialize.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportSource.dll" Component_="CrystalDecisions.ReportSource.dll" FileName="CRYST~14.DLL|CrystalDecisions.ReportSource.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.ReportSource.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.Shared.dll" Component_="CrystalDecisions.Shared.dll" FileName="CRYST~15.DLL|CrystalDecisions.Shared.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.Shared.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.Windows.Forms.dll" Component_="CrystalDecisions.Windows.Forms.dll" FileName="CRYST~16.DLL|CrystalDecisions.Windows.Forms.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\CrystalDecisions.Windows.Forms.dll" SelfReg="false"/>
+    <ROW File="Ctrl.dll" Component_="Ctrl.dll" FileName="Ctrl.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Ctrl.dll" SelfReg="false"/>
+    <ROW File="DanhMuc.dll" Component_="DanhMuc.dll" FileName="DanhMuc.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DanhMuc.dll" SelfReg="false"/>
+    <ROW File="DanhMucB.dll" Component_="DanhMucB.dll" FileName="DanhMucB.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DanhMucB.dll" SelfReg="false"/>
+    <ROW File="DataTransferLib.dll" Component_="DataTransferLib.dll" FileName="DATATR~1.DLL|DataTransferLib.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DataTransferLib.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Map.v17.1.Core.dll" Component_="DevExpress.Map.v17.1.Core.dll" FileName="DEVEXP~1.DLL|DevExpress.Map.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DevExpress.Map.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Patch.Common.dll" Component_="DevExpress.Patch.Common.dll" FileName="DEVEXP~2.DLL|DevExpress.Patch.Common.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DevExpress.Patch.Common.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Snap.v17.1.dll" Component_="DevExpress.Snap.v17.1.dll" FileName="DEVEXP~3.DLL|DevExpress.Snap.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DevExpress.Snap.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Snap.v17.1.Extensions.dll" Component_="DevExpress.Snap.v17.1.Extensions.dll" FileName="DEVEXP~4.DLL|DevExpress.Snap.v17.1.Extensions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DevExpress.Snap.v17.1.Extensions.dll" SelfReg="false"/>
+    <ROW File="DevExpress.TreeMap.v17.1.Core.dll" Component_="DevExpress.TreeMap.v17.1.Core.dll" FileName="DEVEXP~5.DLL|DevExpress.TreeMap.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DevExpress.TreeMap.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Web.ASPxThemes.v17.1.dll" Component_="DevExpress.Web.ASPxThemes.v17.1.dll" FileName="DEVEXP~6.DLL|DevExpress.Web.ASPxThemes.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DevExpress.Web.ASPxThemes.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Web.Resources.v17.1.dll" Component_="DevExpress.Web.Resources.v17.1.dll" FileName="DEVEXP~7.DLL|DevExpress.Web.Resources.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DevExpress.Web.Resources.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Web.v17.1.dll" Component_="DevExpress.Web.v17.1.dll" FileName="DEVEXP~8.DLL|DevExpress.Web.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DevExpress.Web.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraCharts.v17.1.UI.dll" Component_="DevExpress.XtraCharts.v17.1.UI.dll" FileName="DEVEXP~9.DLL|DevExpress.XtraCharts.v17.1.UI.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DevExpress.XtraCharts.v17.1.UI.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraReports.v17.1.Web.dll" Component_="DevExpress.XtraReports.v17.1.Web.dll" FileName="DEVEX~10.DLL|DevExpress.XtraReports.v17.1.Web.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DevExpress.XtraReports.v17.1.Web.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraRichEdit.v17.1.Extensions.dll" Component_="DevExpress.XtraRichEdit.v17.1.Extensions.dll" FileName="DEVEX~11.DLL|DevExpress.XtraRichEdit.v17.1.Extensions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DevExpress.XtraRichEdit.v17.1.Extensions.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraTreeMap.v17.1.dll" Component_="DevExpress.XtraTreeMap.v17.1.dll" FileName="DEVEX~12.DLL|DevExpress.XtraTreeMap.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DevExpress.XtraTreeMap.v17.1.dll" SelfReg="false"/>
+    <ROW File="DH.XtraRPT.dll" Component_="DH.XtraRPT.dll" FileName="DHXTRA~1.DLL|DH.XtraRPT.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\DH.XtraRPT.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.dll" Component_="EntityFramework.dll" FileName="ENTITY~1.DLL|EntityFramework.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\EntityFramework.dll" SelfReg="false"/>
+    <ROW File="EnvDTE.dll" Component_="EnvDTE.dll" FileName="EnvDTE.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\EnvDTE.dll" SelfReg="false"/>
+    <ROW File="EnvDTE80.dll" Component_="EnvDTE80.dll" FileName="EnvDTE80.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\EnvDTE80.dll" SelfReg="false"/>
+    <ROW File="EPPlus.dll" Component_="EPPlus.dll" FileName="EPPlus.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\EPPlus.dll" SelfReg="false"/>
+    <ROW File="Excel.dll" Component_="Excel.dll" FileName="Excel.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Excel.dll" SelfReg="false"/>
+    <ROW File="fhi360.hiv.DataTransfer.Intefaces.dll" Component_="fhi360.hiv.DataTransfer.Intefaces.dll" FileName="FHI360~1.DLL|fhi360.hiv.DataTransfer.Intefaces.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\fhi360.hiv.DataTransfer.Intefaces.dll" SelfReg="false"/>
+    <ROW File="FlashControlV71.dll" Component_="FlashControlV71.dll" FileName="FLASHC~1.DLL|FlashControlV71.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\FlashControlV71.dll" SelfReg="false"/>
+    <ROW File="Google.Apis.Auth.dll" Component_="Google.Apis.Auth.dll" FileName="GOOGLE~1.DLL|Google.Apis.Auth.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Google.Apis.Auth.dll" SelfReg="false"/>
+    <ROW File="Google.Apis.Core.dll" Component_="Google.Apis.Core.dll" FileName="GOOGLE~2.DLL|Google.Apis.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Google.Apis.Core.dll" SelfReg="false"/>
+    <ROW File="Google.Apis.dll" Component_="Google.Apis.dll" FileName="GOOGLE~3.DLL|Google.Apis.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Google.Apis.dll" SelfReg="false"/>
+    <ROW File="Google.Apis.Drive.v3.dll" Component_="Google.Apis.Drive.v3.dll" FileName="GOOGLE~4.DLL|Google.Apis.Drive.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Google.Apis.Drive.v3.dll" SelfReg="false"/>
+    <ROW File="HosMed.BangKe.dll" Component_="HosMed.BangKe.dll" FileName="HOSMED~1.DLL|HosMed.BangKe.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\HosMed.BangKe.dll" SelfReg="false"/>
+    <ROW File="HosMed.BCDuoc.dll" Component_="HosMed.BCDuoc.dll" FileName="HOSMED~2.DLL|HosMed.BCDuoc.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\HosMed.BCDuoc.dll" SelfReg="false"/>
+    <ROW File="HosMed.Core.dll" Component_="HosMed.Core.dll" FileName="HOSMED~3.DLL|HosMed.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\HosMed.Core.dll" SelfReg="false"/>
+    <ROW File="HospitalSecondStore.exe" Component_="HospitalSecondStore.exe" FileName="HOSPIT~1.EXE|HospitalSecondStore.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\HospitalSecondStore.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="HospitalSecondStore.exe.config" Component_="HospitalSecondStore.exe.config" FileName="HOSPIT~1.CON|HospitalSecondStore.exe.config" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\HospitalSecondStore.exe.config" SelfReg="false"/>
+    <ROW File="ICSharpCode.SharpZipLib.dll" Component_="ICSharpCode.SharpZipLib.dll" FileName="ICSHAR~1.DLL|ICSharpCode.SharpZipLib.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\ICSharpCode.SharpZipLib.dll" SelfReg="false"/>
+    <ROW File="Janus.Data.v3.dll" Component_="Janus.Data.v3.dll" FileName="JANUSD~1.DLL|Janus.Data.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Janus.Data.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.ButtonBar.v3.dll" Component_="Janus.Windows.ButtonBar.v3.dll" FileName="JANUSW~1.DLL|Janus.Windows.ButtonBar.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Janus.Windows.ButtonBar.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.CalendarCombo.v3.dll" Component_="Janus.Windows.CalendarCombo.v3.dll" FileName="JANUSW~2.DLL|Janus.Windows.CalendarCombo.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Janus.Windows.CalendarCombo.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.Common.v3.dll" Component_="Janus.Windows.Common.v3.dll" FileName="JANUSW~3.DLL|Janus.Windows.Common.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Janus.Windows.Common.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.ExplorerBar.v3.dll" Component_="Janus.Windows.ExplorerBar.v3.dll" FileName="JANUSW~4.DLL|Janus.Windows.ExplorerBar.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Janus.Windows.ExplorerBar.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.FilterEditor.v3.dll" Component_="Janus.Windows.FilterEditor.v3.dll" FileName="JANUSW~5.DLL|Janus.Windows.FilterEditor.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Janus.Windows.FilterEditor.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.GridEX.v3.dll" Component_="Janus.Windows.GridEX.v3.dll" FileName="JANUSW~6.DLL|Janus.Windows.GridEX.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Janus.Windows.GridEX.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.Ribbon.v3.dll" Component_="Janus.Windows.Ribbon.v3.dll" FileName="JANUSW~7.DLL|Janus.Windows.Ribbon.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Janus.Windows.Ribbon.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.Schedule.v3.dll" Component_="Janus.Windows.Schedule.v3.dll" FileName="JANUSW~8.DLL|Janus.Windows.Schedule.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Janus.Windows.Schedule.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.TimeLine.v3.dll" Component_="Janus.Windows.TimeLine.v3.dll" FileName="JANUSW~9.DLL|Janus.Windows.TimeLine.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Janus.Windows.TimeLine.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.UI.v3.dll" Component_="Janus.Windows.UI.v3.dll" FileName="JANUS~10.DLL|Janus.Windows.UI.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Janus.Windows.UI.v3.dll" SelfReg="false"/>
+    <ROW File="LibraryApp.dll" Component_="LibraryApp.dll" FileName="LIBRAR~1.DLL|LibraryApp.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\LibraryApp.dll" SelfReg="false"/>
+    <ROW File="License.dll" Component_="License.dll" FileName="License.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\License.dll" SelfReg="false"/>
+    <ROW File="log4net.dll" Component_="log4net.dll" FileName="log4net.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\log4net.dll" SelfReg="false"/>
+    <ROW File="MessageBoxAdv.dll" Component_="MessageBoxAdv.dll" FileName="MESSAG~1.DLL|MessageBoxAdv.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\MessageBoxAdv.dll" SelfReg="false"/>
+    <ROW File="Microsoft.CSharp.dll" Component_="Microsoft.CSharp.dll" FileName="MICROS~1.DLL|Microsoft.CSharp.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Microsoft.CSharp.dll" SelfReg="false"/>
+    <ROW File="Mono.Security.dll" Component_="Mono.Security.dll" FileName="MONOSE~1.DLL|Mono.Security.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Mono.Security.dll" SelfReg="false"/>
+    <ROW File="Newtonsoft.Json.dll" Component_="Newtonsoft.Json.dll" FileName="NEWTON~1.DLL|Newtonsoft.Json.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Newtonsoft.Json.dll" SelfReg="false"/>
+    <ROW File="Npgsql.dll" Component_="Npgsql.dll" FileName="Npgsql.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Npgsql.dll" SelfReg="false"/>
+    <ROW File="Npgsql.EntityFramework.dll" Component_="Npgsql.EntityFramework.dll" FileName="NPGSQL~1.DLL|Npgsql.EntityFramework.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Npgsql.EntityFramework.dll" SelfReg="false"/>
+    <ROW File="Npgsql.EntityFrameworkLegacy.dll" Component_="Npgsql.EntityFrameworkLegacy.dll" FileName="NPGSQL~2.DLL|Npgsql.EntityFrameworkLegacy.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Npgsql.EntityFrameworkLegacy.dll" SelfReg="false"/>
+    <ROW File="Number2String.dll" Component_="Number2String.dll" FileName="NUMBER~1.DLL|Number2String.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Number2String.dll" SelfReg="false"/>
+    <ROW File="OTH.Adapter.dll" Component_="OTH.Adapter.dll" FileName="OTHADA~1.DLL|OTH.Adapter.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.Adapter.dll" SelfReg="false"/>
+    <ROW File="OTH.AppStore.Client.exe" Component_="OTH.AppStore.Client.exe" FileName="OTHAPP~1.EXE|OTH.AppStore.Client.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.AppStore.Client.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="OTH.AppStore.Core.dll" Component_="OTH.AppStore.Core.dll" FileName="OTHAPP~1.DLL|OTH.AppStore.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.AppStore.Core.dll" SelfReg="false"/>
+    <ROW File="OTH.ChilkatRR.dll" Component_="OTH.ChilkatRR.dll" FileName="OTHCHI~1.DLL|OTH.ChilkatRR.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.ChilkatRR.dll" SelfReg="false"/>
+    <ROW File="OTH.Common.dll" Component_="OTH.Common.dll" FileName="OTHCOM~1.DLL|OTH.Common.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.Common.dll" SelfReg="false"/>
+    <ROW File="OTH.dll" Component_="OTH.dll" FileName="OTH.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.dll" SelfReg="false"/>
+    <ROW File="OTH.Entity.dll" Component_="OTH.Entity.dll" FileName="OTHENT~1.DLL|OTH.Entity.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.Entity.dll" SelfReg="false"/>
+    <ROW File="OTH.Entity.v.1.0.dll" Component_="OTH.Entity.v.1.0.dll" FileName="OTHENT~2.DLL|OTH.Entity.v.1.0.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.Entity.v.1.0.dll" SelfReg="false"/>
+    <ROW File="OTH.Gassync.dll" Component_="OTH.Gassync.dll" FileName="OTHGAS~1.DLL|OTH.Gassync.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.Gassync.dll" SelfReg="false"/>
+    <ROW File="OTH.GLib.dll" Component_="OTH.GLib.dll" FileName="OTHGLI~1.DLL|OTH.GLib.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.GLib.dll" SelfReg="false"/>
+    <ROW File="OTH.GoogleDrive.dll" Component_="OTH.GoogleDrive.dll" FileName="OTHGOO~1.DLL|OTH.GoogleDrive.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.GoogleDrive.dll" SelfReg="false"/>
+    <ROW File="OTH.Model.FHI.dll" Component_="OTH.Model.FHI.dll" FileName="OTHMOD~1.DLL|OTH.Model.FHI.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.Model.FHI.dll" SelfReg="false"/>
+    <ROW File="OTH.PAY.SHB.Apis.dll" Component_="OTH.PAY.SHB.Apis.dll" FileName="OTHPAY~1.DLL|OTH.PAY.SHB.Apis.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.PAY.SHB.Apis.dll" SelfReg="false"/>
+    <ROW File="OTH.PAY.ViettinBank.Apis.Leasedline.dll" Component_="OTH.PAY.ViettinBank.Apis.Leasedline.dll" FileName="OTHPAY~2.DLL|OTH.PAY.ViettinBank.Apis.Leasedline.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.PAY.ViettinBank.Apis.Leasedline.dll" SelfReg="false"/>
+    <ROW File="OTH.PAY.ViettinBank.Apis.Net.dll" Component_="OTH.PAY.ViettinBank.Apis.Net.dll" FileName="OTHPAY~3.DLL|OTH.PAY.ViettinBank.Apis.Net.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.PAY.ViettinBank.Apis.Net.dll" SelfReg="false"/>
+    <ROW File="OTH.PAY.ViettinBank.Crypto.dll" Component_="OTH.PAY.ViettinBank.Crypto.dll" FileName="OTHPAY~4.DLL|OTH.PAY.ViettinBank.Crypto.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.PAY.ViettinBank.Crypto.dll" SelfReg="false"/>
+    <ROW File="OTH.PAY.ViettinBank.Hos.dll" Component_="OTH.PAY.ViettinBank.Hos.dll" FileName="OTHPAY~5.DLL|OTH.PAY.ViettinBank.Hos.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.PAY.ViettinBank.Hos.dll" SelfReg="false"/>
+    <ROW File="OTH.PgBackup.dll" Component_="OTH.PgBackup.dll" FileName="OTHPGB~1.DLL|OTH.PgBackup.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.PgBackup.dll" SelfReg="false"/>
+    <ROW File="OTH.PgSQL.dll" Component_="OTH.PgSQL.dll" FileName="OTHPGS~1.DLL|OTH.PgSQL.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.PgSQL.dll" SelfReg="false"/>
+    <ROW File="OTH.Resources.dll" Component_="OTH.Resources.dll" FileName="OTHRES~1.DLL|OTH.Resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.Resources.dll" SelfReg="false"/>
+    <ROW File="OTH.Selenium.dll" Component_="OTH.Selenium.dll" FileName="OTHSEL~1.DLL|OTH.Selenium.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.Selenium.dll" SelfReg="false"/>
+    <ROW File="OTH.SQL.dll" Component_="OTH.SQL.dll" FileName="OTHSQL~1.DLL|OTH.SQL.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.SQL.dll" SelfReg="false"/>
+    <ROW File="OTH.TXReports.dll" Component_="OTH.TXReports.dll" FileName="OTHTXR~1.DLL|OTH.TXReports.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.TXReports.dll" SelfReg="false"/>
+    <ROW File="OTH.TXTextControlWordsRibbon.dll" Component_="OTH.TXTextControlWordsRibbon.dll" FileName="OTHTXT~1.DLL|OTH.TXTextControlWordsRibbon.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.TXTextControlWordsRibbon.dll" SelfReg="false"/>
+    <ROW File="OTH.UpdaterNet.dll" Component_="OTH.UpdaterNet.dll" FileName="OTHUPD~1.DLL|OTH.UpdaterNet.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.UpdaterNet.dll" SelfReg="false"/>
+    <ROW File="OTH.WebServices.dll" Component_="OTH.WebServices.dll" FileName="OTHWEB~1.DLL|OTH.WebServices.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.WebServices.dll" SelfReg="false"/>
+    <ROW File="OTH.XControl.dll" Component_="OTH.XControl.dll" FileName="OTHXCO~1.DLL|OTH.XControl.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.XControl.dll" SelfReg="false"/>
+    <ROW File="OTH.XForms.dll" Component_="OTH.XForms.dll" FileName="OTHXFO~1.DLL|OTH.XForms.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.XForms.dll" SelfReg="false"/>
+    <ROW File="OTH.XForms.v.1.0.dll" Component_="OTH.XForms.v.1.0.dll" FileName="OTHXFO~2.DLL|OTH.XForms.v.1.0.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.XForms.v.1.0.dll" SelfReg="false"/>
+    <ROW File="OTH.XForms.v.1.1.dll" Component_="OTH.XForms.v.1.1.dll" FileName="OTHXFO~3.DLL|OTH.XForms.v.1.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.XForms.v.1.1.dll" SelfReg="false"/>
+    <ROW File="OTH.XReports.dll" Component_="OTH.XReports.dll" FileName="OTHXRE~1.DLL|OTH.XReports.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\OTH.XReports.dll" SelfReg="false"/>
+    <ROW File="PairTextBox.dll" Component_="PairTextBox.dll" FileName="PAIRTE~1.DLL|PairTextBox.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\PairTextBox.dll" SelfReg="false"/>
+    <ROW File="QRCoder.dll" Component_="QRCoder.dll" FileName="QRCoder.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\QRCoder.dll" SelfReg="false"/>
+    <ROW File="ReportViewer.dll" Component_="ReportViewer.dll" FileName="REPORT~1.DLL|ReportViewer.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\ReportViewer.dll" SelfReg="false"/>
+    <ROW File="RestSharp.dll" Component_="RestSharp.dll" FileName="RESTSH~1.DLL|RestSharp.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\RestSharp.dll" SelfReg="false"/>
+    <ROW File="Role.dll" Component_="Role.dll" FileName="Role.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Role.dll" SelfReg="false"/>
+    <ROW File="Roo.Exe.dll" Component_="Roo.Exe.dll" FileName="ROOEXE~1.DLL|Roo.Exe.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Roo.Exe.dll" SelfReg="false"/>
+    <ROW File="SetupPrintDlg.dll" Component_="SetupPrintDlg.dll" FileName="SETUPP~1.DLL|SetupPrintDlg.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\SetupPrintDlg.dll" SelfReg="false"/>
+    <ROW File="ShockwaveFlashObjects.dll" Component_="ShockwaveFlashObjects.dll" FileName="SHOCKW~1.DLL|ShockwaveFlashObjects.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\ShockwaveFlashObjects.dll" SelfReg="false"/>
+    <ROW File="Status.dll" Component_="Status.dll" FileName="Status.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\Status.dll" SelfReg="false"/>
+    <ROW File="stdole.dll" Component_="stdole.dll" FileName="stdole.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\stdole.dll" SelfReg="false"/>
+    <ROW File="TXDocumentServer.dll" Component_="TXDocumentServer.dll" FileName="TXDOCU~1.DLL|TXDocumentServer.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\TXDocumentServer.dll" SelfReg="false"/>
+    <ROW File="TXDocumentServer.Windows.Forms.dll" Component_="TXDocumentServer.Windows.Forms.dll" FileName="TXDOCU~2.DLL|TXDocumentServer.Windows.Forms.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\TXDocumentServer.Windows.Forms.dll" SelfReg="false"/>
+    <ROW File="TXDrawing.dll" Component_="TXDrawing.dll" FileName="TXDRAW~1.DLL|TXDrawing.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\TXDrawing.dll" SelfReg="false"/>
+    <ROW File="TXDrawing.Windows.Forms.dll" Component_="TXDrawing.Windows.Forms.dll" FileName="TXDRAW~2.DLL|TXDrawing.Windows.Forms.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\TXDrawing.Windows.Forms.dll" SelfReg="false"/>
+    <ROW File="TXTextControl.dll" Component_="TXTextControl.dll" FileName="TXTEXT~1.DLL|TXTextControl.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\TXTextControl.dll" SelfReg="false"/>
+    <ROW File="TXTextControl.Server.dll" Component_="TXTextControl.Server.dll" FileName="TXTEXT~2.DLL|TXTextControl.Server.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\TXTextControl.Server.dll" SelfReg="false"/>
+    <ROW File="TXTextControl.Windows.Forms.dll" Component_="TXTextControl.Windows.Forms.dll" FileName="TXTEXT~3.DLL|TXTextControl.Windows.Forms.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\TXTextControl.Windows.Forms.dll" SelfReg="false"/>
+    <ROW File="WebDriver.dll" Component_="WebDriver.dll" FileName="WEBDRI~1.DLL|WebDriver.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\WebDriver.dll" SelfReg="false"/>
+    <ROW File="WebDriver.Support.dll" Component_="WebDriver.Support.dll" FileName="WEBDRI~2.DLL|WebDriver.Support.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\WebDriver.Support.dll" SelfReg="false"/>
+    <ROW File="XtraRPT.dll" Component_="XtraRPT.dll" FileName="XtraRPT.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\XtraRPT.dll" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="." Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="DHGPharma_Dir" Component_="DHGPharma" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="Admin.DataAccess.dll"/>
+    <ROW Feature_="MainFeature" Component_="API3.SDK.dll"/>
+    <ROW Feature_="MainFeature" Component_="BouncyCastle.Crypto.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuButton.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuCheckBox.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuRadioButton.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuTextbox.dll"/>
+    <ROW Feature_="MainFeature" Component_="ChilkatDotNet4.dll"/>
+    <ROW Feature_="MainFeature" Component_="Chuoi.dll"/>
+    <ROW Feature_="MainFeature" Component_="ControlButton.dll"/>
+    <ROW Feature_="MainFeature" Component_="ControlButtonDev.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.CrystalReports.Engine.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.ClientDoc.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.CommLayer.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.CommonControls.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.Com_1_monObjectModel.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.Controllers.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.CubeDefModel.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.DataDefModel.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.DataSetConversion.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.ObjectFactory.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.Prompting.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.ReportDefModel.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.XmlSerialize.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportSource.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.Shared.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.Windows.Forms.dll"/>
+    <ROW Feature_="MainFeature" Component_="Ctrl.dll"/>
+    <ROW Feature_="MainFeature" Component_="DanhMuc.dll"/>
+    <ROW Feature_="MainFeature" Component_="DanhMucB.dll"/>
+    <ROW Feature_="MainFeature" Component_="DataTransferLib.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Map.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Patch.Common.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Snap.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Snap.v17.1.Extensions.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.TreeMap.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Web.ASPxThemes.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Web.Resources.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Web.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraCharts.v17.1.UI.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraReports.v17.1.Web.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraRichEdit.v17.1.Extensions.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraTreeMap.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DH.XtraRPT.dll"/>
+    <ROW Feature_="MainFeature" Component_="EntityFramework.dll"/>
+    <ROW Feature_="MainFeature" Component_="EnvDTE.dll"/>
+    <ROW Feature_="MainFeature" Component_="EnvDTE80.dll"/>
+    <ROW Feature_="MainFeature" Component_="EPPlus.dll"/>
+    <ROW Feature_="MainFeature" Component_="Excel.dll"/>
+    <ROW Feature_="MainFeature" Component_="fhi360.hiv.DataTransfer.Intefaces.dll"/>
+    <ROW Feature_="MainFeature" Component_="FlashControlV71.dll"/>
+    <ROW Feature_="MainFeature" Component_="Google.Apis.Auth.dll"/>
+    <ROW Feature_="MainFeature" Component_="Google.Apis.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="Google.Apis.dll"/>
+    <ROW Feature_="MainFeature" Component_="Google.Apis.Drive.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="HosMed.BangKe.dll"/>
+    <ROW Feature_="MainFeature" Component_="HosMed.BCDuoc.dll"/>
+    <ROW Feature_="MainFeature" Component_="HosMed.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="HospitalSecondStore.exe"/>
+    <ROW Feature_="MainFeature" Component_="HospitalSecondStore.exe.config"/>
+    <ROW Feature_="MainFeature" Component_="ICSharpCode.SharpZipLib.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Data.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.ButtonBar.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.CalendarCombo.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.Common.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.ExplorerBar.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.FilterEditor.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.GridEX.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.Ribbon.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.Schedule.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.TimeLine.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.UI.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="LibraryApp.dll"/>
+    <ROW Feature_="MainFeature" Component_="License.dll"/>
+    <ROW Feature_="MainFeature" Component_="log4net.dll"/>
+    <ROW Feature_="MainFeature" Component_="MessageBoxAdv.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.CSharp.dll"/>
+    <ROW Feature_="MainFeature" Component_="Mono.Security.dll"/>
+    <ROW Feature_="MainFeature" Component_="Newtonsoft.Json.dll"/>
+    <ROW Feature_="MainFeature" Component_="Npgsql.dll"/>
+    <ROW Feature_="MainFeature" Component_="Npgsql.EntityFramework.dll"/>
+    <ROW Feature_="MainFeature" Component_="Npgsql.EntityFrameworkLegacy.dll"/>
+    <ROW Feature_="MainFeature" Component_="Number2String.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.Adapter.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.AppStore.Client.exe"/>
+    <ROW Feature_="MainFeature" Component_="OTH.AppStore.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.ChilkatRR.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.Common.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.Entity.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.Entity.v.1.0.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.Gassync.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.GLib.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.GoogleDrive.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.Model.FHI.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.PAY.SHB.Apis.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.PAY.ViettinBank.Apis.Leasedline.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.PAY.ViettinBank.Apis.Net.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.PAY.ViettinBank.Crypto.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.PAY.ViettinBank.Hos.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.PgBackup.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.PgSQL.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.Resources.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.Selenium.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.SQL.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.TXReports.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.TXTextControlWordsRibbon.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.UpdaterNet.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.WebServices.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.XControl.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.XForms.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.XForms.v.1.0.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.XForms.v.1.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.XReports.dll"/>
+    <ROW Feature_="MainFeature" Component_="PairTextBox.dll"/>
+    <ROW Feature_="MainFeature" Component_="QRCoder.dll"/>
+    <ROW Feature_="MainFeature" Component_="ReportViewer.dll"/>
+    <ROW Feature_="MainFeature" Component_="RestSharp.dll"/>
+    <ROW Feature_="MainFeature" Component_="Role.dll"/>
+    <ROW Feature_="MainFeature" Component_="Roo.Exe.dll"/>
+    <ROW Feature_="MainFeature" Component_="SetupPrintDlg.dll"/>
+    <ROW Feature_="MainFeature" Component_="ShockwaveFlashObjects.dll"/>
+    <ROW Feature_="MainFeature" Component_="Status.dll"/>
+    <ROW Feature_="MainFeature" Component_="stdole.dll"/>
+    <ROW Feature_="MainFeature" Component_="TXDocumentServer.dll"/>
+    <ROW Feature_="MainFeature" Component_="TXDocumentServer.Windows.Forms.dll"/>
+    <ROW Feature_="MainFeature" Component_="TXDrawing.dll"/>
+    <ROW Feature_="MainFeature" Component_="TXDrawing.Windows.Forms.dll"/>
+    <ROW Feature_="MainFeature" Component_="TXTextControl.dll"/>
+    <ROW Feature_="MainFeature" Component_="TXTextControl.Server.dll"/>
+    <ROW Feature_="MainFeature" Component_="TXTextControl.Windows.Forms.dll"/>
+    <ROW Feature_="MainFeature" Component_="WebDriver.dll"/>
+    <ROW Feature_="MainFeature" Component_="WebDriver.Support.dll"/>
+    <ROW Feature_="MainFeature" Component_="XtraRPT.dll"/>
+    <ROW Feature_="MainFeature" Component_="DHGPharma"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="HospitalSecondStore.exe" SourcePath="..\..\..\..\..\dh-hos-code\HospitalSecondStore.exe\.advbuilds\Logo.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 600)" Description="[ProductName] cannot be installed on [WindowsTypeNT60Display]." DescriptionLocId="AI.LaunchCondition.NoNT60" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="DHG.HospitalSecondStore" Directory_="DesktopFolder" Name="DHG~1.HOS|DHG.Hospital SecondStore" Component_="HospitalSecondStore.exe" Target="[#HospitalSecondStore.exe]" Hotkey="0" Icon_="HospitalSecondStore.exe" IconIndex="0" ShowCmd="1"/>
+    <ROW Shortcut="DHG.HospitalSecondStore_1" Directory_="DHGPharma_Dir" Name="DHG~1.HOS|DHG.Hospital SecondStore" Component_="HospitalSecondStore.exe" Target="[#HospitalSecondStore.exe]" Hotkey="0" Icon_="HospitalSecondStore.exe" IconIndex="0" ShowCmd="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="769" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
