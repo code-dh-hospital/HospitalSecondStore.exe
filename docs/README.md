@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1214.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32412140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32412140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32412140-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Chức năng `[Cập nhật phiếu Chưa lĩnh - Chưa trả]`: Xử lý nghiệp vụ đối với các loại xuất toa người bệnh (loaixn=xbb) có sử dụng tạm xuất (tamxuat). Những hàng hóa có thay đổi khi xử lý, sẽ cập nhật giá trị `current.tkdatatemp.da_can_kho = 1`.
+- ☑: https://github.com/dhhiswork/Loi/issues/73
+
 ## [v.3.24.1108.1]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32411081-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32411081-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32411081-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix lỗi thẻ kho tủ trực
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/643
