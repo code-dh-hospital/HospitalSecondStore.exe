@@ -6,6 +6,31 @@
 
 #
 
+## [v.3.25.0215.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32502150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32502150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32502150-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung mẫu in tự thiết kế chức năng tổng hợp phiếu trả toa nội trú.
+➡️ Phiếu tự thiết kế trang in [Tổng hợp phiếu trả]
+![](https://i.imgur.com/ZPE2FG8.png)
+➡️ Phiếu tự thiết kế trang in [Tổng hợp phiếu trả Nghiện/Hướng thần/Tiền chất]
+![](https://i.imgur.com/e6ikk7q.png)
+➡️ Kết quả [Phiếu trả lại thuốc]
+![](https://i.imgur.com/rRTGngd.png)
+➡️ Kết quả [Phiếu trả lại máu]
+![](https://i.imgur.com/ja55dzy.png)
+➡️ Kết quả [Phiếu trả lại VTYT tiêu hao]
+![](https://i.imgur.com/B4obAx7.png)
+➡️ Kết quả [Phiếu trả lại hóa chất]
+![](https://i.imgur.com/bCvTc4d.png)
+➡️ Kết quả [Phiếu trả lại dịch truyền]
+![](https://i.imgur.com/8Pgl1WZ.png)
+➡️ Kết quả [Phiếu trả lại dược liệu]
+![](https://i.imgur.com/HQPtKYu.png)
+➡️ Kết quả [Phiếu trả lại thuốc gây nghiện]
+![](https://i.imgur.com/VHUXnql.png)
+➡️ Kết quả [Phiếu trả lại thuốc hướng tâm thần (tiền chất)]
+![](https://i.imgur.com/OlRZn6L.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/52
+
 ## [v.3.25.0119.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32501190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32501190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32501190-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung chức năng quản lý và báo cáo/thống kê hàng hóa tiện ích. Theo [Mô tả [DỰ ÁN] tách hàng hóa [Tiện ích] kho nhà thuốc](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/M%C3%B4%20t%E1%BA%A3%20%5BD%E1%BB%B0%20%C3%81N%5D%20t%C3%A1ch%20h%C3%A0ng%20h%C3%B3a%20%5BTi%E1%BB%87n%20%C3%ADch%5D%20kho%20nh%C3%A0%20thu%E1%BB%91c.md)
