@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.0505.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32505050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32505050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32505050-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - SecondStore: Bảng in phiếu trả thuốc thiếu thông tin so với bản cũ (BV Lao Phổi Đồng Tháp)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/272
+
+- Fix lỗi thiếu thông tin người lập
+- Fix thể hiện sai tên thuốc theo tham số duoc.tenthuoc khi in tổng hợp phiếu trả thuốc
+![](https://i.imgur.com/nJ2XNxV.png)
+
 ## [v.3.25.0325.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32503250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32503250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32503250-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung mẫu tự thiết kế khi in mẫu xuất thuốc `Nghiện/Hướng thần/Tiền chất`.
