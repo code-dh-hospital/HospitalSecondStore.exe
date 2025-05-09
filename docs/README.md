@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.0509.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32505090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32505090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32505090-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Medicine, SecondStore tự thiết kế mẫu Phiếu xuất kho C31 (Thống kê -> Xuất kho -> Khoa phòng)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/195
+
+- Bổ sung mẫu C21 và C31 chuyển sang tự thiết kế cho Form báo cáo Xuất khoa phòng (Lưu ý Load lại trang mặc định trước khi in)
+
+![](https://i.imgur.com/IHIooOP.gif)
+
 ## [v.3.25.0506.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32505060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32505060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32505060-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - SecondStore: Bảng in phiếu trả thuốc thiếu thông tin so với bản cũ (BV Lao Phổi Đồng Tháp)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/272
