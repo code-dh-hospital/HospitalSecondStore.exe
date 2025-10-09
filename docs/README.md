@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.25.1009.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32510090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32510090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32510090-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung các mẫu tự thiết kế.
+ + Xuất khoa phòng: In NB
+ + Xuất điều về: In
+ + Xuất hư hỏng: In BB, In N-HT
+ + Xuất khác: In NT, In N-HT
+ + Xuất Tủ trực: In NB
+ + Tổng hợp phiếu lĩnh: In, In NB, In C21, In C31
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/263
+
 ## [v.3.25.0710.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32507100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32507100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32507100-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Cập nhật sai giá xuất khi chỉnh chứng từ Xuất Khác - LOI - dh-issue- #357
 - 🐛:  ***Chỉnh lỗi không lấy thành tiên theo tham số xuatkhac.thanhtien.*** ![](https://live.staticflickr.com/65535/54644900221_7a447e262c_b.jpg)
