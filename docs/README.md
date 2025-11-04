@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1104.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32511040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32511040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32511040-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi: Phiếu lĩnh thuốc nghiện không in được số tổng hợp.
+![](https://lh3.googleusercontent.com/pw/AP1GczPxdeDqO2gtmdV4Bq61VhcPex76r4O9GQOn5fRwtWxlBQpSeuDPByoplnpcDTD9Y_zUIR8fezYLulQ8Qwa4ztxIdUEcOtyO1FFl7C2ttg9Pr3fIJyIeAv44CHxrpTKRIY5stzF7BOFh3FS4GOS66-3r=w1082-h722-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMT8y14qCd3VnAaVOIFAxhmZMXDjG0Gawg_9DSbGXnfTD0NKcm5yJvQBKbOcbwLCX0EeVYpdLd0N3Z2Mp0kjXQCDZeqJFamnLfFtS-w3gke5AqE7wjFYwSHkLUB1_PaIYYDRitjPHoJ1o6pL_StrxLC=w990-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/607
+
 ## [v.3.25.1019.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32510190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32510190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32510190-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Mẫu nghiện, hướng thần không lấy được số tiền Tổng cộng
