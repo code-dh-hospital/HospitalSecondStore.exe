@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1216.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32512160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32512160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32512160-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Medicine, SecondStore Phiếu xuất kho nội bộ sai thông tin
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/664
+
+![](https://i.vgy.me/jnlQFV.png)
+
 ## [v.3.25.1212.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32512120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32512120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32512120-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - SecondStore lỗi in biên bản xuất hư hỏng theo tt 22/2011 (BV Thạnh Trị) - LOI - dh-issue- #662
 - 🐛:  ***Cập nhật bản in Biên bản trên form Xuất hư hỏng, đồng bộ với Medicine.*** 
