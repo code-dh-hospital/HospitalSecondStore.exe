@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0612.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32606120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32606120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32606120-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Hỗ trợ báo cáo tồn kho và nhập xuất tồn đến ngày (theo giờ) tại thẻ [Tồn kho 2] và [Nhập xuất tồn 2] theo mô tả [PSTONKHO/Bao-cao-Ton-kho-va-NXT-theo-ngay.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/PSTONKHO/Bao-cao-Ton-kho-va-NXT-theo-ngay.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczNVEYsARXr-b7ce2DI1sNJ3uN8YiNJFL1Fd2nSXZ3F2YylGxFUMBEChzbVD407H-bW4CHDIeiv_z_TlVScaAZypzpU9eX3B-CGX4jhqw9d3-5TuDwmFgv5sEs-iSzV9lLvXGom-HlD3JubMLnfoA3up=w1665-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczP-BaDaWR7qeZhbsEG8Pg9vnDRWaPAx7ZgqdaeBs2Sj6IjNRJPpRRFZ3fyVrHRYV8b-7PqNXjrh9Ku0dnOuIA7CAs2LTY9dMNxhUMiRGByu9lcmlxc4Mzga_XLezJ-48EqACmBkX-ZZAnC9Fw4ml7Qw=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMz3OaJGrVqjJkg8Qo8LQ0tkCfKkom8bFg27UyW2S3oyzxnPRtDeDjYa3S3vvOJsCwLZwshmBSYiktRw9YpLxPRxSa6cNr2qEgpv5pyOjqcKPT62OZjwImXRUNV_BGkkXNYzgKN-sE1jyvUqVjMUPOb=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczP-ga-kcMgaJztWefnDvIsYmQBVU-v5QzBcDzp3RDcsaC2NYrjcEQcQp2tcCMf7KZwj3qiOTaiBEHQnZ-CaohAXnrkPIqOw1L0eOIhyCf-i7cN96OzJD4MLuh0NcF2-WJt7m7tpdRCPjyg6k0VdxhfF=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/790#issuecomment-29052
+
 ## [v.3.25.1216.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32512160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32512160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32512160-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Medicine, SecondStore Phiếu xuất kho nội bộ sai thông tin
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/664
