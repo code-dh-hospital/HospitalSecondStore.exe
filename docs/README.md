@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.26.0707.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32607070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32607070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32607070-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Cập nhật
+
+:one: NGUYÊN NHÂN: `Lỗi do logic code tính số lượng Xuất KCB bị sai`. Cụ thể: tại thư viện `HosMed.BangKe.dll` => File `HosMed.BangKe\CLSAdapter\BangKeAdapter.cs` => Class `TKXuatKhoAdapter()` => Hàm `SP_XuatKhamBenh()`
+![](https://lh3.googleusercontent.com/pw/AP1GczM4vWsdjOdp9w7Nw2ZehBOcbT_h9NIICWD7VXy1dzfj2xkmpkosl1p1ISOZL2tWBPbqpq0faYBxcfjQGkF0L3EOUkdbJZ2pKcmeH3zhS_dCfvSLS7bH853HiAWHbldik1iO5l2lSbVSpj-yoIfTJQ7x=w1319-h745-s-no-gm?authuser=0)
+
+:two: GIẢI PHÁP: điều chỉnh điều kiện cho xuất khám ngoại trú và cải tiến tốc độ truy vấn dữ liệu
+![](https://lh3.googleusercontent.com/pw/AP1GczMui9I7oNK4SbINTkzZf_0CEqMxepaG2GAZ10lnTqCynQdWFfMmZ1Fzz31ITz7Qap2AJw_6MEoMZnP1fI6bG4GQ0H12Ytzoiu5-HDe9fPUSf0pn0UYcvm44F9JOoEkf7YIo1eQOp1FuyE9c7xkUVWh8=w1163-h551-s-no-gm?authuser=0)
+
+![](https://lh3.googleusercontent.com/pw/AP1GczOReKGEoqTIRdVSIImwHyI0uedknSqFnCATmCmS8MfzkdwWszQCK6pMErO6abCExLeIDRYbnmB2ELMTwW5ViMMfjotIeVmmVy0iNikqG5Gn3k_uZzYv1hxZjIRCIDByCXj1e3QWeNVARX69xcEfHKE-=w948-h356-s-no-gm?authuser=0)
+
+:three: KẾT QUẢ:
+![](https://lh3.googleusercontent.com/pw/AP1GczO-uLnMygfiFHocX7oxk5HS-4ax7qKuwSFo0xEkpX1w2VnroENeXjTb7UcPMTSR0HpxDosvf8M-Fi325PiXAZN8Jm_1XwxJE3LeYL9p8Yn01NQw33zE0tgHUmFJ7hBkHiX4WCibF5xknyKdRQgWnWlT=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNJUbBNUFpd4HpTi4wbSLkfJop9PBUWycglEA3WLwwf-u8nhMfuG6KRnBlz2ZiwIso_yeZMOEQfYVkbflVQljX03vaVwqKzDCiePl6UkdIIjyZkIjpGypBNwLbqBZKqSW-ZAh0C_PhxtqEp3N1STcly=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/900#issuecomment-30231
+
 ## [v.3.26.0612.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32606120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32606120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32606120-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Hỗ trợ báo cáo tồn kho và nhập xuất tồn đến ngày (theo giờ) tại thẻ [Tồn kho 2] và [Nhập xuất tồn 2] theo mô tả [PSTONKHO/Bao-cao-Ton-kho-va-NXT-theo-ngay.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/PSTONKHO/Bao-cao-Ton-kho-va-NXT-theo-ngay.md).
