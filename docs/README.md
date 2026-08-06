@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0806.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32608060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32608060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32608060-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi chức năng `[Trả lại hóa đơn]` tại form `[Nhập kho lẻ điều về]` bị double số lượng.
+![](https://lh3.googleusercontent.com/pw/AP1GczPUWj36aY0W_iuxov5JPWt_EKTMwQ93d2AQf2LWv-mznfN1jFjWzmu5AO1F2C8P83itO1WzlMWcgPgxNsF22BmnbpQgMzON7xPTLm_POfMMi1jyNt0YUOQiQN5OZcyFl7zpwmBWrXd6JTePeBrTVHGz=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOlVF8ATb9TjdZyb0WIMdc6_wvMuu8ySe2xLDnv81tlfCyLDjAoAR13ap48tUr9UNKwGlzl-giKhSPr6UDqos5DIUXzFivWNjpqxZZ4uXVbso4XRaswr4tX21_BYIy4BEbK8WtlkAy5ROwNz24t4cCV=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/960#issuecomment-31846
+
 ## [v.3.26.0723.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32607230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32607230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32607230-NasDHSolutions.json)</sup></sup></sub>
 - ✨: cầu - Cấp key HIS và Buiding các module triển khai cho Phòng khám đa khoa Thánh Tâm (TP. HCM (tỉnh Bình Dương cũ))- Yêu
 - ✨: **_Bổ sung key theo Hợp đồng: `74167`._**
