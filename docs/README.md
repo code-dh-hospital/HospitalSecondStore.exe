@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0810.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32608100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32608100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32608100-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi Nhập chứng từ 100 khi thao tác xong thì tồn kho = 200.
+![](https://lh3.googleusercontent.com/pw/AP1GczNiMfjgyXkgdbumVoNo7Ja7DD0-oBY16GektiYYbKDSO-g-PP1eSrSlI55Jr05pjXWYfGHv3xjfu9iAtCnslErlkAMqBvl0ZVa4uKXcv8mZ1Hrh-k_3pynvwwfinRGhwdwQpcfrJ2FPZDN-XIwhEqth=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNkS4sTIxTMQJ5hS770Fw6ez4VrXyZQGwtWgW5x99mEa0TOIEUL7GQkP9DjAoaxnC_8ZGPvdhHznnCj3tlp2nluuBpYgX0B54UiK1noi2HzwIir4x1_6KrqBpIhGPWaAXeiiIGss437vLJgiVbI_Sms=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMzpRjsne8_fPMxWwmw8r-AcarDNyfZrMOh2btVUDV7PFzitpq58CcCBLwe7NVLKoiTO3UMYG4PgpoTC-4WTeYu-QBVZJKHHAv424PgbhlxkrZB5mQ5hYQ52OVVpg5EHywSvUn7gIfV8iHqxTnj6f_P=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/960#issuecomment-32510
+
 ## [v.3.26.0806.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32608060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32608060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalSecondStoreexe%2F32608060-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi chức năng `[Trả lại hóa đơn]` tại form `[Nhập kho lẻ điều về]` bị double số lượng.
